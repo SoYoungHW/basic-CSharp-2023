@@ -25,7 +25,7 @@ namespace cs09_nullcondition
             int? bar = myfoo?.member;
             // myfoo가 null이 아니면 member에 값을 집어넣어라
             // 위의 아홉줄(주석부분)을 모두 축약시킴
-            // C# 6.0부터
+            // C# 2.0부터 - 활성화 4.0정도부터
         }
     }
 
