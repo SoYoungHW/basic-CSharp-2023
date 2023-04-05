@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace wf02_realwinapp
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// 해당 애플리케이션의 주 진입점(Entry Point)입니다.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // 없애면 실행안됨
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FrmMain());
+        }
+    }
+}
