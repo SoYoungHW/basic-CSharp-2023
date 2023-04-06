@@ -24,4 +24,4 @@
 	- 리스트뷰, 데이터그리드 추가학습필요
 3일차 윈품 학습결과
 <img
-src = 'https://github.com/SoYoungHW/basic-CSharp-2023/blob/main/Images/Winfroms.png?raw=true', width = 700>
+src = "https://github.com/SoYoungHW/basic-CSharp-2023/blob/main/Images/Winfroms.png", Width = "700">
