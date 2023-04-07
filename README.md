@@ -24,7 +24,7 @@
 	- 리스트뷰, 데이터그리드 추가학습필요
 
 < 3일차 윈폼 학습결과 >
-<img src="https://raw.githubusercontent.com/SoYoungHW/basic-CSharp-2023/main/Images/Winfroms.png">
+<img src="https://raw.githubusercontent.com/SoYoungHW/basic-CSharp-2023/main/Images/Winfroms.png" width="800">
 
 ## 4일차
 - C# 기본
@@ -35,3 +35,10 @@
 	- WinForms 컨트롤 마무리
 	- WinForms 파일복사 앱
 	- 로그인앱 실습
+
+## 5일차
+- C# 기본
+
+- Win App
+	- WinForms 디자인 오류시 해결방법
+	- Window 탐색기 만들기
