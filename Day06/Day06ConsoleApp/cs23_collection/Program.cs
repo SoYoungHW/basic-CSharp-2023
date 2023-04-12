@@ -48,10 +48,10 @@ namespace cs23_collection
         // 인덱스 프로퍼티
         public int this[int index] 
         {
-            get { return this[index]; }
+            get { return array[index]; }
             set
             {
-                if ( index > this.array.Length )
+                if ( index >= this.array.Length )
                 {
                     Array.Resize<int>(ref this.array, index + 1); // 배열크기조정
                     Console.WriteLine("MyArrayList Resize : {0}", array.Length); // 중간확인을위해(개발완료후주석처리)
@@ -108,10 +108,10 @@ namespace cs23_collection
             var myArrayList = new MyArraylist();
             for ( var i = 0; i <= 5; i++ )
             {
-                // index 프로퍼티를 만들었기 때문에
+                // indexer 프로퍼티를 만들었기 때문에
                 myArrayList[i] = i;
 
-                // IEnumerator 구현했기 때문에
+                // IEnumerable 구현했기 때문에
                 foreach (var item in myArrayList)
                 { 
                     Console.WriteLine(item);
