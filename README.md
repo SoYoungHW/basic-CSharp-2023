@@ -72,6 +72,20 @@
 <img src="https://raw.githubusercontent.com/SoYoungHW/basic-CSharp-2023/main/Images/Explorer.png" width="800">
 
 ## 7일차
--Win App
+- C# 기본
+	- 대리자, 이벤트 계속
+	- 람다식
+	- 애트리뷰트
+	- 파일 핸들링
+	
+	< 차후 학습 필요 >
+	- LIQN, 리플렉션, dynamic
+	
+- Win App
+	- DB 핸들링
+	- SDI vs MDI
+
+
+
 	- BookRentalShop DB 사용 WinForms 앱개발
-	- 실습 예제
+	- 실습예제
