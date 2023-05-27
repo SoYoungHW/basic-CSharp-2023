@@ -81,6 +81,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMembers.Designer.cs">
+      <DependentUpon>FrmMembers.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBooks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     <Compile Include="Helpers\Commons.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMembers.resx">
+      <DependentUpon>FrmMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBooks.resx">
       <DependentUpon>FrmBooks.cs</DependentUpon>
     </EmbeddedResource>

@@ -18,6 +18,7 @@ namespace wf13_bookrentalshop
         #region < 각 화면 폼 >
         FrmGenre frmGenre = null; // 책장르관리 객체
         FrmBooks frmBooks = null; // 책정보관리
+        FrmMembers frmMembers = null; // 회원관리
         #endregion
 
         #region < 생성자 >
@@ -70,7 +71,7 @@ namespace wf13_bookrentalshop
 
         private void MniMember_Click(object sender, EventArgs e)
         {
-
+            frmMembers = ShowActiveForm(frmMembers, typeof(FrmMembers)) as FrmMembers;
         }
 
         private void MniRental_Click(object sender, EventArgs e)
